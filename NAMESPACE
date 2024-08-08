@@ -2,10 +2,10 @@
 
 export(imco)
 export(make_ants_image)
-importFrom(ANTsRCore,antsGetSpacing)
+importFrom(ANTsRCore,antsImage_GetSpacing)
 importFrom(ANTsRCore,antsImageWrite)
 importFrom(ANTsRCore,as.antsImage)
-importFrom(ANTsRCore,getNeighborhoodInMask)
+importFrom(ANTsRCore,antsImage_GetNeighborhood)
 importFrom(extrantsr,ants2oro)
 importFrom(extrantsr,check_ants)
 importFrom(fslr,fslsmooth)
